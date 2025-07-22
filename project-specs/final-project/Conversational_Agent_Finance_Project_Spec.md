@@ -9,7 +9,7 @@ To design and implement an agentic AI system that functions as a conversational 
 
 ## Project Tasks and Timeline
 
-### Task 1: Data Collection and Preprocessing (Week 1)
+### Task 1: Data Collection and Preprocessing 
 - **Objective:** Collect and preprocess structured and unstructured financial data.
 - **Data Sources:**
   - Yahoo Finance API (stock prices, market cap, P/E ratios)
@@ -22,7 +22,7 @@ To design and implement an agentic AI system that functions as a conversational 
   - Crawled/cleaned financial text documents for RAG
   - Data storage schema and organization
 
-### Task 2: Financial Knowledge Embedding (Week 2)
+### Task 2: Financial Knowledge Embedding 
 - **Objective:** Convert financial texts into vector representations for semantic retrieval.
 - **Steps:**
   - Use financial-domain-specific LLM embeddings (e.g., FinBERT, OpenAI Embeddings)
@@ -32,7 +32,7 @@ To design and implement an agentic AI system that functions as a conversational 
   - Vector DB with embedded knowledge base
   - Retrieval query test scripts
 
-### Task 3: Building Predictive Financial Models (Week 3)
+### Task 3: Building Predictive Financial Models 
 - **Objective:** Build models for predicting stock movement, volatility, and portfolio returns.
 - **Examples of Predictive Models:**
   - Stock price movement (classification/regression)
@@ -46,7 +46,7 @@ To design and implement an agentic AI system that functions as a conversational 
   - Trained models with evaluation reports
   - Sample inferences on user-uploaded portfolios
 
-### Task 4: RAG-Based Agentic AI System (Week 4)
+### Task 4: RAG-Based Agentic AI System 
 - **Objective:** Integrate LangGraph agents with vector search to create a conversational financial assistant.
 - **Steps:**
   - Build sub-agents (Retriever, Analyzer, Summarizer, Reporter)
@@ -57,7 +57,7 @@ To design and implement an agentic AI system that functions as a conversational 
   - LangGraph-powered agentic assistant
   - Query interface (CLI or Streamlit UI)
 
-### Task 5: User Interface and Demonstration (Week 5)
+### Task 5: User Interface and Demonstration 
 - **Objective:** Create a professional, simple interface for testing the assistant.
 - **Steps:**
   - Design with Streamlit or LangChain UI

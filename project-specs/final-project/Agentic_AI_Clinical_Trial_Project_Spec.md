@@ -19,7 +19,7 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ## Task-wise Breakdown
 
-### **Task 1: Data Collection (Week 1)**
+### **Task 1: Data Collection **
 
 **Objective:** Identify and collect relevant clinical trial datasets and supplementary biomedical data.
 
@@ -44,7 +44,7 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ---
 
-### **Task 2: Data Processing & Preparation (Week 2)**
+### **Task 2: Data Processing & Preparation **
 
 **Objective:** Clean and transform raw data into usable formats for RAG and machine learning models.
 
@@ -60,7 +60,7 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ---
 
-### **Task 3: Embedding Generation and Vector DB Setup (Week 3)**
+### **Task 3: Embedding Generation and Vector DB Setup **
 
 **Objective:** Generate embeddings from trial texts and load into a vector database for retrieval.
 
@@ -78,7 +78,7 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ---
 
-### **Task 4: RAG and LangGraph-based Agent Development (Week 4–5)**
+### **Task 4: RAG and LangGraph-based Agent Development **
 
 **Objective:** Build an Agentic AI system that leverages RAG and LangGraph for intelligent interactions.
 
@@ -98,7 +98,7 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ---
 
-### **Task 5: Machine Learning Modeling (Week 6)**
+### **Task 5: Machine Learning Modeling **
 
 **Objective:** Build ML models for trial outcome prediction, e.g., success probability, dropout rate.
 
@@ -116,7 +116,7 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ---
 
-### **Task 6: Final Integration and Demo (Week 7)**
+### **Task 6: Final Integration and Demo **
 
 **Objective:** Integrate the full pipeline and demonstrate the Agentic AI system.
 

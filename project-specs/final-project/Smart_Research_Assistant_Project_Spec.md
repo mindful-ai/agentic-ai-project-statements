@@ -12,7 +12,7 @@ Participants will build an intelligent agent-based system that autonomously coll
 ---
 
 ## Duration
-**2 Weeks (~50–60 hours of work)**
+**50–60 hours of work**
 
 ---
 
@@ -30,7 +30,7 @@ By the end of the project, participants will be able to:
 
 ## Week-wise Plan and Tasks
 
-### Week 1: Data Collection, Processing & Modeling
+### Stage 1: Data Collection, Processing & Modeling
 
 #### Task 1: Data Acquisition (Day 1–2)
 - Identify and extract data from:
@@ -51,7 +51,7 @@ By the end of the project, participants will be able to:
 - Build a **Trend Forecasting Model** using time-series data
 - Save model artifacts for integration
 
-### Week 2: RAG + Agentic AI with LangGraph
+### Stage 2: RAG + Agentic AI with LangGraph
 
 #### Task 4: Embedding and Vector Store (Day 5–6)
 - Convert insights into embeddings using OpenAI or BGE
