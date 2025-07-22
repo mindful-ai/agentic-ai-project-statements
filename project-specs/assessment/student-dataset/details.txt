@@ -1,0 +1,216 @@
+UCI Student Performance Dataset
+
+The Student Performance dataset from the UCI Machine Learning Repository typically contains the following columns:
+
+school: (binary) student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
+sex: (binary) student's sex (binary: 'F' - female or 'M' - male)
+age: (numeric) student's age (numeric: from 15 to 22)
+address: (categorical) student's home address type (binary: 'U' - urban or 'R' - rural)
+famsize: (categorical) family size (binary: 'LE3' - less or equal to 3 members or 'GT3' - greater than 3 members)
+Pstatus: (binary) parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
+Medu: (numeric) mother's education (numeric: 0 - no education, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education, 4 - higher education)
+Fedu: (numeric) father's education (numeric: same scale as Medu)
+Mjob: (categorical) mother's job (nominal: 'teacher', 'health', 'services', 'at_home', 'other')
+Fjob: (categorical) father's job (nominal: 'teacher', 'health', 'services', 'at_home', 'other')
+reason: (categorical) reason to choose this school (nominal: 'home', 'reputation', 'course', 'other')
+guardian: (categorical) student's guardian (nominal: 'mother', 'father', 'other')
+traveltime: (numeric) travel time to school (numeric: 1 - <15 min, 2 - 15 to 30 min, 3 - 30 min to 1 hour, 4 - >1 hour)
+studytime: (numeric) weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, 4 - >10 hours)
+failures: (numeric) number of past class failures (numeric: n if 1< n <3, else 4)
+school_sup: (binary) extra educational support (binary: yes/no)
+family_sup: (binary) family educational support (binary: yes/no)
+paid: (binary) extra paid classes within the course subject (binary: yes/no)
+activities: (binary) extra-curricular activities (binary: yes/no)
+nursery: (binary) attended nursery school (binary: yes/no)
+higher: (binary) wants to take higher education (binary: yes/no)
+internet: (binary) Internet access at home (binary: yes/no)
+romantic: (binary) with a romantic relationship (binary: yes/no)
+famrel: (numeric) quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
+freetime: (numeric) free time after school (numeric: from 1 - very low to 5 - very high)
+goout: (numeric) going out with friends (numeric: from 1 - very low to 5 - very high)
+Dalc: (numeric) workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
+Walc: (numeric) weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)
+health: (numeric) current health status (numeric: from 1 - very bad to 5 - very good)
+absences: (numeric) number of school absences (numeric: from 0 to 93)
+G1: (numeric) first period grade (numeric: from 0 to 20)
+G2: (numeric) second period grade (numeric: from 0 to 20)
+G3: (numeric) final grade (numeric: from 0 to 20, target variable)
+
+-----------------------------------------------------------------------------------------------
+
+Questions: Group A 
+
+Univariate Analysis Questions
+Univariate analysis focuses on examining a single variable at a time. 
+Key goals include understanding its distribution, central tendency, variability, 
+and identifying outliers.
+
+What is the distribution of each continuous variable in the dataset?
+Example: What is the distribution of age in the Student Performance dataset?
+This helps reveal skewness, modality, and spread of the data.
+
+Are there any outliers in each continuous variable?
+Example: Are there outliers in the absences variable?
+Identifying outliers helps understand any extreme values that might need special treatment.
+
+What is the central tendency (mean, median, mode) and spread (variance, standard deviation) of continuous variables?
+Example: What are the mean and median of studytime?
+This can help identify if the data is symmetric or skewed and its variability.
+
+How frequent are the categories for each categorical variable?
+Example: How many students are in each category of school (GP vs. MS)?
+Frequency counts show the distribution of categorical values, helping understand sample sizes within each group.
+
+What is the proportion of students who participate in extracurricular activities?
+Example: What percentage of students participate in activities?
+Understanding proportions in binary variables gives insight into participation levels or response rates.
+
+How are binary variables (yes/no) distributed in the dataset?
+Example: What is the distribution of internet access among students?
+This helps understand access rates and availability of resources in the dataset.
+
+What is the distribution of student grades across different intervals?
+Example: How are grades (G3) distributed across low, medium, and high categories?
+This can involve creating bins for continuous variables and helps understand the grading trend.
+
+
+-----------------------------------------------------------------------------------------------
+
+Questions: Group B 
+
+Bivariate analysis examines the relationship between two variables. 
+It can reveal correlations, patterns, and interactions, especially for 
+understanding how one variable might affect another.
+
+Is there a correlation between age and final grade (G3)?
+This tests if there’s a relationship between student age and their academic performance.
+
+How does the number of study hours (studytime) impact final grades (G3)?
+Understanding this relationship can reveal if more study time is associated with higher grades.
+
+Does the number of absences correlate with students’ grades?
+Example: Are students with more absences likely to have lower grades?
+This examines the effect of attendance on academic performance.
+
+What is the relationship between parental education level and student grades?
+Example: How does Medu (mother’s education) correlate with final grade (G3)?
+Helps assess if higher parental education is associated with higher student performance.
+
+Does family structure (Pstatus) impact student grades?
+Example: Is there a difference in average grade (G3) between students living with both parents vs. one parent?
+This helps understand if family support impacts academic performance.
+
+How does alcohol consumption (weekend vs. weekday) affect student grades?
+Examining Dalc (weekday drinking) and Walc (weekend drinking) with G3 can show if alcohol consumption patterns correlate with academic outcomes.
+
+Is there a difference in grades between students who have internet access at home and those who don’t?
+This examines whether internet access is associated with higher grades.
+
+How do grades vary across different schools?
+Example: Are students from school GP outperforming those from school MS?
+School-wise comparison of grades to see if one school has a performance advantage.
+
+What is the relationship between average household size and average student performance?
+This explores if family size (e.g., famsize) impacts student grades, possibly due to resource distribution.
+
+Does parental job type (Mjob/Fjob) affect student grades?
+Example: Are students whose parents work in specific professions performing better academically?
+This examines potential socioeconomic influences on performance.
+
+How do study time and going out time correlate with each other?
+Examining studytime and goout helps reveal if students who study more also go out less, which may indirectly affect grades.
+
+Does health status influence students’ grades?
+Example: Do students who report better health status (health) tend to have better grades (G3)?
+This investigates if health is a factor in academic performance.
+
+Are there any gender-based differences in final grades?
+Example: Is there a significant difference in average grades (G3) between male and female students?
+Analyzing gender differences in performance can highlight if gender impacts grades.
+
+How does weekday alcohol consumption relate to weekend alcohol consumption?
+Exploring Dalc vs. Walc helps understand if students who drink during weekdays also drink more on weekends.
+
+Does travel time to school affect students’ study time?
+Example: Do students who travel longer to school tend to have less study time?
+This relationship might show if commute time indirectly affects academic preparation.
+
+-----------------------------------------------------------------------------------------------
+
+Questions: Group C
+
+What is the distribution of final grades (G3) among students?
+An initial look at how grades are distributed across all students, 
+which can reveal overall performance levels and grade skewness.
+
+How do demographic factors like age and gender influence final grades?
+Investigate if there are any noticeable differences in performance based 
+on age or gender, potentially identifying trends for different groups.
+
+What is the relationship between parental education levels and student performance?
+Explore if students whose parents have higher education levels tend to perform better, 
+which may hint at socioeconomic influences.
+
+How does the number of study hours affect students' final grades?
+Analyze if students who study more frequently (represented by study time) 
+achieve higher grades, providing insight into the impact of study habits.
+
+Is there any correlation between alcohol consumption and student performance?
+Examine if students who consume alcohol more frequently (using the Dalc and Walc variables 
+for weekday and weekend consumption) tend to have lower grades.
+
+How does family structure (living with both parents vs. one parent) impact student grades?
+Investigate if family structure has any effect on academic performance, 
+which could reveal the importance of household stability.
+
+Does a student’s commute time to school affect their performance?
+Analyze if longer commute times correlate with lower grades, 
+potentially indicating a negative impact of travel on students’ academic results.
+
+What is the effect of extracurricular activities on academic performance?
+Check if students involved in extracurricular activities 
+(represented by the activities feature) tend to perform better or worse academically.
+
+Are there significant differences in performance between students in different schools?
+Compare the grades of students from the two schools 
+(GP and MS) to see if one school outperforms the other.
+
+How does access to educational resources (such as internet access) influence grades?
+Determine if students with internet access at home (represented by the internet feature) 
+achieve higher grades, possibly reflecting the benefit of additional resources.
+
+What is the relationship between parental job types and student grades?
+Examine if the type of job a parent has (using the Mjob and Fjob features) 
+is associated with student performance.
+
+Does the amount of time students spend going out socially correlate with academic performance?
+Analyze if students who spend more time going out with friends (using the goout feature) 
+have different performance levels than those who socialize less.
+
+How does the quality of family relationships influence student grades?
+Investigate if students who report better family relationships (using the famrel feature) 
+achieve higher grades, potentially showing the role of family support in academic success.
+
+Is there any pattern in performance based on a student’s health status?
+Explore if students with better self-reported health (using the health feature) 
+tend to perform better in their final grades, indicating a possible link between health and academic success.
+
+What is the impact of absences on student performance?
+Check if students with higher absence counts tend to have lower final grades, 
+which could show the importance of attendance for academic success.
+
+-----------------------------------------------------------------------------------------------
+
+Questions: Group D 
+
+How many students with high study time achieve top grades?
+This question prompts an analysis of students who spend significant hours 
+studying and how many of them achieve high final grades.
+
+How many students with internet access at home score below average?
+This explores the subset of students with internet access to see if there’s a 
+relationship between access to resources and low performance.
+
+How many students from families with a higher education level of parents (either mother or father) score top grades?
+This question encourages participants to analyze whether parental education level 
+influences academic excellence among students.
