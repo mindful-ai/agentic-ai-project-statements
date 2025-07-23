@@ -32,7 +32,7 @@ By the end of the project, participants will be able to:
 
 ### Stage 1: Data Collection, Processing & Modeling
 
-#### Task 1: Data Acquisition (Day 1–2)
+#### Task 1: Data Acquisition
 - Identify and extract data from:
   - TechCrunch (news)
   - Yahoo Finance (stock & financial reports)
@@ -41,30 +41,30 @@ By the end of the project, participants will be able to:
   - GDELT (global market trends)
 - Use Python, BeautifulSoup, APIs, or LangChain tools (like `RequestsTool`).
 
-#### Task 2: Data Cleaning & Enrichment (Day 3)
+#### Task 2: Data Cleaning & Enrichment 
 - Clean textual data using pandas and regex
 - Perform NER (Named Entity Recognition) using spaCy
 - Extract keywords and sentiment scores
 
-#### Task 3: ML Model Development (Day 4)
+#### Task 3: ML Model Development 
 - Build a **Sentiment Classifier** using labeled datasets
 - Build a **Trend Forecasting Model** using time-series data
 - Save model artifacts for integration
 
 ### Stage 2: RAG + Agentic AI with LangGraph
 
-#### Task 4: Embedding and Vector Store (Day 5–6)
+#### Task 4: Embedding and Vector Store 
 - Convert insights into embeddings using OpenAI or BGE
 - Store them in a vector database (Chroma, FAISS)
 - Include metadata such as source, date, entity, and sentiment
 
-#### Task 5: LangGraph Agent Workflow (Day 7–8)
+#### Task 5: LangGraph Agent Workflow 
 - Define agent states:
   - `Start → Search → Summarize → Predict → Respond → End`
 - Implement nodes using LangGraph
 - Integrate LLM, search, prediction, and summarization tools
 
-#### Task 6: ML Model Integration (Day 9)
+#### Task 6: ML Model Integration 
 - Use trained ML models as callable tools inside LangGraph
 - The agent should:
   - Search insights
@@ -72,7 +72,7 @@ By the end of the project, participants will be able to:
   - Call ML models for prediction
   - Generate answers using RAG
 
-#### Task 7: UI Layer (Optional, Day 10)
+#### Task 7: UI Layer 
 - Build a simple front-end using Streamlit or Gradio
 - Accept queries like:
   - “What is the market outlook for Nvidia?”
