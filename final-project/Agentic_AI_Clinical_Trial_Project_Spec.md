@@ -149,6 +149,4 @@ This capstone project involves building an **Agentic AI system powered by LangGr
 
 ---
 
-**Total Duration:** 7 weeks  
-**Team Size:** 2–3 professionals per team  
-**Final Review:** Peer + Instructor evaluation based on working demo, code quality, and innovative reasoning use cases.
+
