@@ -28,7 +28,7 @@ By the end of the project, participants will be able to:
 
 ---
 
-## Week-wise Plan and Tasks
+## Plan and Tasks
 
 ### Stage 1: Data Collection, Processing & Modeling
 
